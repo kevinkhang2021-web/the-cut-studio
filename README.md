@@ -18,12 +18,10 @@ L'application prolonge l'activité de la salle en ligne :
 | Membre | Rôle |
 |---|---|
 | Pilato Khang Kevin | **Master** – régule l'équipe, centralise et valide les livrables, gère le dépôt |
-| _à confirmer_ | **Main Dev** – développement de l'application |
-| _à confirmer_ | **SysAdmin** – machine de référence, déploiement (Docker, Apache…) |
-| Sakisa Mbumbas Blaise | Membre |
-| Mapenzi Numbi Deo | Membre |
-| Wabula Mukenge | Membre |
-| Ngoy Kazadi Packy | Membre |
+| Wabula Mukenge, Ngoy Kazadi Packy | **Main Dev** – développement de l'application |
+|Mapenzi Numbi Deo, Sakisa Mbumbas Blaise| **SysAdmin** – machine de référence, déploiement (Docker, Apache…) |
+|Mapenzi Numbi Deo| Design |
+
 
 Encadrement : Mr Zagabe Yannick (E-commerce) et MSc Héritier Katebula (Modélisation).
 
