@@ -1,0 +1,46 @@
+# Système
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Secrets et configuration locale
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Node
+node_modules/
+npm-debug.log*
+dist/
+build/
+
+# PHP / Laravel
+vendor/
+storage/*.key
+bootstrap/cache/*.php
+
+# Java
+target/
+*.class
+*.jar
+*.war
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# Base de données locale et journaux
+*.sqlite
+*.log
+
+# Fichiers temporaires Office
+~$*
+.~lock.*
