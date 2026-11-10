@@ -30,7 +30,7 @@
             @foreach($days as $d)
                 <div class="bar-col">
                     <span>{{ $d['value'] > 0 ? number_format($d['value'] / 1000, 0, ',', ' ') . 'k' : '' }}</span>
-                    <div class="bar" style="height: {{ max(2, round($d['value'] / $maxDay * 100)) }}%"></div>
+                    <div class="bar" @style(['height' => max(2, round($d['value'] / $maxDay * 100)) . '%'])></div>
                     <span>{{ $d['label'] }}</span>
                 </div>
             @endforeach
